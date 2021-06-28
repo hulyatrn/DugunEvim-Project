@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="ytkort.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+
+    <title>Yatak Örtüleri</title>
+</head>
+<body>
+
+
+    <nav class="navbar sticky-top  navbar-expand-lg navbar-light " id="nav"> <img src="imgyatakortu/logo.jpg" width="290px">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Ürünler için ara" aria-label="Search" id="ara-btn">
+          <button class="btn btn-outline" id="arabtn" type="submit">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+              viewBox="0 0 16 16">
+              <path
+                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+            </svg></button>
+        </form>
+    
+        
+        <div class=" d-md-flex justify-content-md-end">
+            <a href="login/login.html">
+            <button class="btn  me-md-2" id="giris" type="button">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle"
+                viewBox="0 0 16 16">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                <path fill-rule="evenodd"
+                  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+              </svg>
+              Giriş Yap/Kayıt Ol</button>
+            </a>
+            <div class="favori">
+                <button class="fav-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+              <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+            </svg></button></div>
+            <div class="sepet">
+                <button class="sep-btn " >
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+              <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+            </svg></button></div>
+          </div>
+        </nav>
+
+        <nav class="menu">
+
+          <ul>
+            <li>
+                <a href="ceyiz.html" target="_blank">ANASAYFA</a>
+            </li>
+        
+            <li data-dropdown>
+                <a href="">GİYİM</a>
+        
+                <ul class="hidden">
+                  <li>
+                      <a href="bayan.html" target="_blank">Bayan Giyim</a>
+                      
+                  </li>
+          
+                  <li>
+                      <a href="erkek.html" target="_blank">Erkek Giyim</a>
+                  </li>
+        
+                  <li>
+                      <a href="cocuk.html" target="_blank">Çocuk Giyim</a>
+                  </li>
+                  <li>
+                    <a href="bebek.html" target="_blank">Bebek Giyim</a>
+                </li>
+        
+                </ul>
+            </li>
+        
+            <li>
+                <a href="">YATAK ODASI</a>
+                <ul class="hidden">
+                    <li>
+                        <a href="yorgan.html" target="_blank">Yorgan</a>
+                    </li>
+            
+                    <li>
+                        <a href="battaniye.html" target="_blank">Battaniye</a>
+                    </li>
+        
+                    <li>
+                        <a href="yatakortu.html" target="_blank">Yatak Örtüleri</a>
+                    </li>
+                    <li>
+                      <a href="pike.html" target="_blank">Pike Takımları</a>
+                  </li>
+          
+                  <li>
+                      <a href="nevresim.html" target="_blank">Nevresim Takımları</a>
+                  </li>
+      
+                </ul>
+            
+        
+            </li>
+        
+            <li>
+                <a href="">ÇEYİZLİK ÜRÜNLER</a>
+                <ul class="hidden">
+                  <li>
+                      <a href="ceyizseti.html" target="_blank">Çeyiz Seti</a>
+                      
+                  </li>
+          
+                  <li>
+                      <a href="gelinseti.html" target="_blank">Gelin Seti</a>
+                  </li>
+        
+                  <li>
+                      <a href="ceyizkolisi.html" target="_blank">Çeyiz Kolisi</a>
+                  </li>
+                  <li>
+                      <a href="ceyizsandik.html" target="_blank">Çeyiz Sandığı</a>
+                  </li>
+        
+                  <li>
+                      <a href="tesbih.html" target="_blank">Tesbih Kutusu</a>
+                  </li>
+                  
+                  <li>
+                      <a href="aynatarak.html" target="_blank">Ayna Tarak Seti</a>
+                  </li>
+        
+                  <li>
+                      <a href="dantel.html" target="_blank">Dantel Vitrin Takımları</a>
+                  </li>
+          
+              
+                  
+                </ul>
+            </li>
+        
+            <li>
+                <a href="">MUTFAK</a>
+            
+            <ul class="hidden">
+              <li>
+                  <a href="masaortu.html" target="_blank">Masa Örtüsü Takımı</a>
+                  
+              </li>
+      
+              <li>
+                  <a href="mutfakhavlu.html" target="_blank">Mutfak Havlusu</a>
+              </li>
+    
+    
+            </ul>
+            <li>
+            
+              <a href="">BANYO</a>
+              <ul class="hidden">
+                
+          
+                  <li>
+                      <a href="kadınbornoz.html" target="_blank">Kadın Bornoz</a>
+                  </li>
+        
+                  <li>
+                      <a href="erkekbornoz.html" target="_blank">Erkek Bornoz</a>
+                  </li>
+                  <li>
+                      <a href="bornoztakimi.html" target="_blank">Bornoz Takımları</a>
+                  </li>
+        
+              
+                </ul>
+          </li>
+        
+          <li>
+              <a href="">ÇEYİZ SANDIĞI</a>
+              <ul class="hidden">
+                  <li>
+                      <a href="ceyizsandik.html" target="_blank">Çeyiz Sandığı</a>
+                      
+                  </li>
+          
+                  <li>
+                      <a href="ceyizkolisi.html" target="_blank">Çeyiz Kolisi</a>
+                  </li>
+        
+                  <li>
+                      <a href="damattras.html" target="_blank">Damat Traş Seti</a>
+                  </li>
+                 
+                </ul>
+          </li>
+          
+          <li>
+            <a href="">SALON</a>
+            <ul class="hidden">
+              <li>
+                  <a href="evdizayn.html" target="_blank">Ev Design</a>
+                  
+              </li>
+      
+              <li>
+                  <a href="aksesuar.html" target="_blank">Aksesuar</a>
+              </li>
+             
+          
+              <li>
+                  <a href="masaortu.html" target="_blank">Masa Örtüsü</a>
+              </li>
+           
+    
+            </ul>
+        </li>
+        </ul>
+        </nav>
+      </br></br></br>
+  
+
+   
+    
+    <div class="yorgan">
+        <h3>YATAK ÖRTÜLERİ</h3>
+        </div>
+
+    </div></br></br>
+    <div class="container">
+        <div class="row">
+        <div class="col-md-2">
+            <img src="imgyatakortu/karaca1.jpg" class="rounded mx-auto d-block" alt="..." width="165px" height="299px">
+            <h6 style="font-size: 14px; font-weight:900px; text-align: center;">Karaca-Yatak Örtüsü</h6>
+            <p style="text-align: center;"> 170.00 TL</p>
+                <button class="btnn " type="button" style="background-color: rgb(199, 64, 233); color: white; ">Sepete Ekle</button>
+        </div>
+        <div class="col-md-2">
+            <img src="imgyatakortu/pierre.jpg" class="rounded mx-auto d-block" alt="..." width="165px" height="299px">
+            <h6 style="font-size: 13px; font-weight:900px; text-align: center;">Pierre Cardin-Yatak Örtüsü</h6>
+            <p style="text-align: center;"> 189.90 TL</p>
+                <button class="btnn " type="button" style="background-color: rgb(199, 64, 233); color: white;" > Sepete Ekle</button>
+        </div>
+        <div class="col-md-2">
+            <img src="imgyatakortu/karaca3.jpg" class="rounded mx-auto d-block" alt="..." width="165px" height="299px">
+            <h6 style="font-size: 14px; font-weight:900px; text-align: center;">Karaca-Yatak Örtüsü</h6>
+            <p style="text-align: center;"> 170.00 TL</p>
+                <button class="btnn " type="button" style="background-color: rgb(199, 64, 233); color: white;" > Sepete Ekle</button>
+        </div>
+        <div class="col-md-2">
+            <img src="imgyatakortu/özdilek2.jpg" class="rounded mx-auto d-block" alt="..." width="165px" height="299px">
+            <h6 style="font-size: 14px; font-weight:900px; text-align: center;">Özdilek-Yatak Örtüsü</h6>
+            <p style="text-align: center;"> 159.99 TL</p>
+                <button class="btnn " type="button" style="background-color: rgb(199, 64, 233); color: white; text-align: center" > Sepete Ekle</button>
+        </div>
+        <div class="col-md-2">
+            <img src="imgyatakortu/özdile1.jpg" class="rounded mx-auto d-block" alt="..." width="165px" height="299px">
+            <h6 style="font-size: 14px; font-weight:900px; text-align: center;">Özdilek-Yatak Örtüsü</h6>
+            <p style="text-align: center;"> 159.99 TL</p>
+                <button class="btnn " type="button" style="background-color: rgb(199, 64, 233); color: white;" > Sepete Ekle</button>
+        </div>
+        <div class="col-md-2">
+            <img src="imgyatakortu/karaca2.jpg" class="rounded mx-auto d-block" alt="..." width="165px" height="299px">
+            <h6 style="font-size: 14px; font-weight:900px; text-align: center;">Karaca-Yatak Örtüsü</h6>
+            <p style="text-align: center;"> 170.00 TL</p>
+                <button class="btnn " type="button" style="background-color: rgb(199, 64, 233);  color: white;" > Sepete Ekle</button>
+        </div>
+    
+        </div>
+        </div><br><br><br><br><br>
+
+
+        
+
+
+        <div class="container">
+            <div class="row">
+            <div class="col-md-2">
+                <img src="imgyatakortu/madema1.jpg" class="rounded mx-auto d-block" alt="..." width="165px" height="299px">
+                <h6 style="font-size: 14px; font-weight:900px; text-align: center;">Madame Coco-Yatak Örtüsü</h6>
+                <p style="text-align: center;"> 129.90 TL</p>
+                    <button class="btnn " type="button" style="background-color: rgb(199, 64, 233); color: white; ">Sepete Ekle</button>
+            </div>
+            <div class="col-md-2">
+                <img src="imgyatakortu/karaca4.jpg" class="rounded mx-auto d-block" alt="..." width="165px" height="299px">
+                <h6 style="font-size: 14px; font-weight:900px; text-align: center;">Karaca-Yatak Örtüsü</h6>
+                <p style="text-align: center;"> 179.90 TL</p>
+                    <button class="btnn " type="button" style="background-color: rgb(199, 64, 233); color: white;" > Sepete Ekle</button>
+            </div>
+            <div class="col-md-2">
+                <img src="imgyatakortu/tac1.jpg" class="rounded mx-auto d-block" alt="..." width="165px" height="299px">
+                <h6 style="font-size: 14px; font-weight:900px; text-align: center;">Taç-Yatak Örtüsü</h6>
+                <p style="text-align: center;"> 159.90 TL</p>
+                    <button class="btnn " type="button" style="background-color: rgb(199, 64, 233); color: white;" > Sepete Ekle</button>
+            </div>
+            <div class="col-md-2">
+                <img src="imgyatakortu/madema2.jpg" class="rounded mx-auto d-block" alt="..." width="165px" height="299px">
+                <h6 style="font-size: 14px; font-weight:900px; text-align: center;">Madame Coco-Yatak Örtüsü</h6>
+                <p style="text-align: center;"> 139.90 TL</p>
+                    <button class="btnn " type="button" style="background-color: rgb(199, 64, 233); color: white; text-align: center" > Sepete Ekle</button>
+            </div>
+            <div class="col-md-2">
+                <img src="imgyatakortu/tac3.jpg" class="rounded mx-auto d-block" alt="..." width="165px" height="299px">
+                <h6 style="font-size: 14px; font-weight:900px; text-align: center;">Taç-Yatak Örtüsü</h6>
+                <p style="text-align: center;"> 169.90 TL</p>
+                    <button class="btnn " type="button" style="background-color: rgb(199, 64, 233); color: white;" > Sepete Ekle</button>
+            </div>
+            <div class="col-md-2">
+                <img src="imgyatakortu/tac2.jpg" class="rounded mx-auto d-block" alt="..." width="165px" height="299px">
+                <h6 style="font-size: 14px; font-weight:900px; text-align: center;">Taç-Yatak Örtüsü</h6>
+                <p style="text-align: center;"> 169.90 TL</p>
+                    <button class="btnn " type="button" style="background-color: rgb(199, 64, 233);  color: white;" > Sepete Ekle</button>
+            </div>
+        
+            </div>
+            </div><br><br><br><br><br>
+
+
+
+
+            <div class="container">
+                <div class="row">
+                <div class="col-md-2">
+                    <img src="imgyatakortu/dantelsiz.jpg" class="rounded mx-auto d-block" alt="..." width="165px" height="299px">
+                    <h6 style="font-size: 14px; font-weight:900px; text-align: center;">Dantelsiz Yatak Örtüsü</h6>
+                    <p style="text-align: center;"> 89.99 TL</p>
+                        <button class="btnn " type="button" style="background-color: rgb(199, 64, 233); color: white; ">Sepete Ekle</button>
+                </div>
+                <div class="col-md-2">
+                    <img src="imgyatakortu/jakarlı.jpg" class="rounded mx-auto d-block" alt="..." width="165px" height="299px">
+                    <h6 style="font-size: 14px; font-weight:900px; text-align: center;">Jakarlı Yatak Örtüsü</h6>
+                    <p style="text-align: center;"> 100.00 TL</p>
+                        <button class="btnn " type="button" style="background-color: rgb(199, 64, 233); color: white;" > Sepete Ekle</button>
+                </div>
+                <div class="col-md-2">
+                    <img src="imgyatakortu/kadife.jpg" class="rounded mx-auto d-block" alt="..." width="165px" height="299px">
+                    <h6 style="font-size: 14px; font-weight:900px; text-align: center;">Kadife Yatak Örtüsü</h6>
+                    <p style="text-align: center;"> 90.00 TL</p>
+                        <button class="btnn " type="button" style="background-color: rgb(199, 64, 233); color: white;" > Sepete Ekle</button>
+                </div>
+                <div class="col-md-2">
+                    <img src="imgyatakortu/kadife2.jpg" class="rounded mx-auto d-block" alt="..." width="165px" height="299px">
+                    <h6 style="font-size: 14px; font-weight:900px;">Kadife Yatak Örtüsü</h6>
+                    <p style="text-align: center;"> 90.00 TL</p>
+                        <button class="btnn " type="button" style="background-color: rgb(199, 64, 233); color: white; text-align: center" > Sepete Ekle</button>
+                </div>
+                <div class="col-md-2">
+                    <img src="imgyatakortu/kapitone.jpg" class="rounded mx-auto d-block" alt="..." width="165px" height="299px">
+                    <h6 style="font-size: 14px; font-weight:900px; text-align: center;">Kapitone Yatak Örtüsü</h6>
+                    <p style="text-align: center;"> 100.00 TL</p>
+                        <button class="btnn " type="button" style="background-color: rgb(199, 64, 233); color: white;" > Sepete Ekle</button>
+                </div>
+                <div class="col-md-2">
+                    <img src="imgyatakortu/özeltasarim.jpg" class="rounded mx-auto d-block" alt="..." width="165px" height="299px">
+                    <h6 style="font-size: 14px; font-weight:900px; text-align: center;">Özel Tasarım Yatak Örtüsü</h6>
+                    <p style="text-align: center;"> 109.90 TL</p>
+                        <button class="btnn " type="button" style="background-color: rgb(199, 64, 233);  color: white;" > Sepete Ekle</button>
+                </div>
+            
+                </div>
+                </div><br><br><br><br><br>
+
+
+
+            <div class="container">
+                <div class="row">
+                  <div class="col-25">
+                      <p>Yeni evleneceklerin bir derdi de çeyiz hazırlama kısmıdır. Ancak aslında çeyiz hazırlamanın keyifli olması gerekir ve stresten sizi uzaklaştırması gerekir. Yeni eşyalar almak, alışveriş yapmak ve evinizi kendi zevkinize göre döşemek aslında güzel bir aktivite olması gerekir. O zaman sizin stresinizi azaltacak ve evinizi düzenlemenize yardımcı olacak bir sürprizimiz var; DüğünEvim.com.</p>
+                      <p>Salonlarınız için, mutfaklarınız için hatta mutfaklarınız için bile tamamlamanız gereken çeyiz ürünleri vardır. Yatak odalarınız için de tamamlamanız gereken ürünler tabii ki var. Bunlardan ilk sırayı yer alan çeyiz ürünü yatak örtüsü ürünüdür. Eşinizle paylaşacağınız yatak odanızda tercih edeceğiniz çift kişilik yatak ürünleri onlarca seçenek ile sizleri DüğünEvim.com adresinde bekliyor. Misafir odalarınızda kullanacağınız tek kişilik yatak örtüsü ürünleri de site içinde yer alıyor. Bu ürünler içinde dantelli yatak örtüsü, fransız dantelli yatak örtüsü, hatta güpürlü yatak örtüsü gibi birbirinden farklı renklerde ve kumaşlardan yapılma seçenekler de yer alıyor. Bu da sizin tercih seçeneklerinizi bir hayli arttırıyor.</p>
+                      <p>Düşünmeniz gereken o kadar fazla şey varken bir de çeyiz tamamlama kısmını düşünmek size yorucu gelebilir. Ancak daha önceden çeyiz edinme kısmını deneyimlemiş kişilerden destek almaktan çekinmemeniz gerekir. Eğer çevrenizde yardım alabileceğiniz birisi yoksa DüğünEvim.com kategorileri içerisinde bulunan ürünleri incelemeniz bile yeterli olacaktır. Sadece yatak odanızda değil, evinizin diğer odalarında da tüm eksikliklerinizi bu site üzerinden tamamlayabilirsiniz.</p>
+                      <br>
+
+                      <p style="color: rgb(151, 148, 148);">Yeni evleneceklerin bir derdi de çeyiz hazırlama kısmıdır. Ancak aslında çeyiz hazırlamanın keyifli olması gerekir ve stresten sizi uzaklaştırması gerekir. Yeni eşyalar almak, alışveriş yapmak ve evinizi kendi zevkinize göre döşemek aslında güzel bir aktivite olması gerekir. O zaman sizin stresinizi azaltacak ve evinizi düzenlemenize yardımcı olacak bir sürprizimiz var; DüğünEvim.com. </p>
+                      <p style="color: rgb(151, 148, 148);">Salonlarınız için, mutfaklarınız için hatta mutfaklarınız için bile tamamlamanız gereken çeyiz ürünleri vardır. Yatak odalarınız için de tamamlamanız gereken ürünler tabii ki var. Bunlardan ilk sırayı yer alan çeyiz ürünü yatak örtüsü ürünüdür. Eşinizle paylaşacağınız yatak odanızda tercih edeceğiniz çift kişilik yatak ürünleri onlarca seçenek ile sizleri DüğünEvim.com adresinde bekliyor. Misafir odalarınızda kullanacağınız tek kişilik yatak örtüsü ürünleri de site içinde yer alıyor. Bu ürünler içinde dantelli yatak örtüsü, fransız dantelli yatak örtüsü, hatta güpürlü yatak örtüsü gibi birbirinden farklı renklerde ve kumaşlardan yapılma seçenekler de yer alıyor. Bu da sizin tercih seçeneklerinizi bir hayli arttırıyor.</p>
+                      <p style="color: rgb(151, 148, 148);">Düşünmeniz gereken o kadar fazla şey varken bir de çeyiz tamamlama kısmını düşünmek size yorucu gelebilir. Ancak daha önceden çeyiz edinme kısmını deneyimlemiş kişilerden destek almaktan çekinmemeniz gerekir. Eğer çevrenizde yardım alabileceğiniz birisi yoksa DüğünEvim.com kategorileri içerisinde bulunan ürünleri incelemeniz bile yeterli olacaktır. Sadece yatak odanızda değil, evinizin diğer odalarında da tüm eksikliklerinizi bu site üzerinden tamamlayabilirsiniz.</p>
+
+                      </div>
+                    </div>
+                  </div><br>
+
+                  <footer class="bg-light text-center " >
+  
+                    <div class="container p-4 ">
+                    
+                      <div class="row">
+                      
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                          <h5 class="text-uppercase" id="iletsm">İLETİŞİM BİLGİLERİMİZ</h5>
+                  
+                      
+                            <li>
+                              <a href="#!" class="text-darkk">www.dugunevim.com</a>
+                            </li>
+                            <li>
+                              <a href="#!" class="text-darkk"> BAĞCILAR / İSTANBUL</a>
+                            </li>
+                            <li>
+                              <a href="#!" class="text-darkk">0000000000</a>
+                            </li>
+                            <li>
+                              <a href="#!" class="text-darkk">info@dugunevim.com</a>
+                            </li>
+                          
+                        </div>
+                       
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                          <h5 class="text-uppercase mb-0" id="kurumsal">KURUMSAL</h5>
+                  
+                        
+                            <li>
+                              <a href="#!" class="text-dark1">Hakkımızda</a>
+                            </li>
+                            <li>
+                              <a href="#!" class="text-dark1">Kullanım Şartları</a>
+                            </li>
+                            <li>
+                              <a href="#!" class="text-dark1">Üyelik ve Kullanım Şartları</a>
+                            </li>
+                            <li>
+                              <a href="#!" class="text-dark1">Banka Bilgileri</a>
+                            </li>
+                            <li>
+                              <a href="#!" class="text-dark1">İletişim</a>
+                            </li>
+                          
+                        </div>
+                        
+                      </div>
+                      <img src="imgyatakortu/logo.jpg" width="400px" height="180px" style="margin-right: -725px; position: relative; top: -255px;">
+
+                    </div>
+                
+                  
+                  
+                  <footer class="bg-light text-center text-lg-start">
+                    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.2);" id="footer">
+                      <p style="text-align: left;">DüğünEvim.Com© 2021 Tüm hakları saklıdır.</p>
+                      <a class="text-dark" href="#"></a>
+                    
+                      
+                  </footer>
+
+
+      
+    
+    
+</body>
+</html>

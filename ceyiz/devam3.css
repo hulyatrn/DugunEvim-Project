@@ -1,0 +1,198 @@
+#arabtn{
+    color: rgba(223, 0, 156, 0.596);
+    background-color: rgb(204, 197, 197);
+}
+#arabtn:hover{
+    background-color:  rgba(209, 35, 180, 0.596);
+    color: rgb(235, 230, 230);
+}
+#ara-btn{
+    margin-left: 20px;
+    width: 680px;
+}
+#nav{
+    background-color: rgb(165, 42, 128);
+}
+#giris{
+    background-color: rgba(124, 46, 98, 0.979);
+    color: rgb(252, 252, 252);
+    margin-left: 100px;
+
+
+}
+#giris:hover{
+    color: rgb(170, 61, 156);
+    background-color: white;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+li{
+    display: inline-block;
+    float: left;
+    margin-right: 1px;
+
+}
+li a{
+    display: block;
+    background:rgb(250, 238, 250);
+    min-width: 162px;
+    text-decoration: none;/*altındaki çizgiler gider*/
+    color: rgb(15, 15, 15);
+    height: 50px;
+    line-height: 50px;/*satır yüksekliği*/
+    text-align: center;
+
+}
+li a:hover{
+    background: rgb(136, 135, 135);
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+
+
+}
+li:hover ul a{
+    background: rgb(238, 175, 215);
+    color: black;
+    height: 40px;
+    line-height: 40px;
+}
+li ul li{
+    display: block;
+    float: none;
+    text-align: left;
+}
+li ul li a{
+    text-align: left;
+    min-width: 100px;
+    padding: 0 20px;
+
+}
+li ul{
+    display: none;/*KURSLAR bölümündeki içeriğin kapanması için*/
+}
+ul li a:hover + .hidden,.hidden:hover{
+    display: block;/*üzerine tıklandığında içeriklerin gelmesi için*/
+
+}
+
+.blog{
+    height: 95px;
+    padding: 15px;
+    background-color: mediumvioletred;
+    color: white;
+    text-align: center;
+}
+.nisan{
+    text-align: center;
+    
+}
+#yazi1{
+    color: rgb(168, 168, 163);
+}
+.fab {
+    padding: 8px;
+    font-size: 30px;
+    width: 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+.fab:hover {
+    opacity: 0.6;
+}
+.fa-facebook-f {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+ 
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+ 
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+ 
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+.cevap{
+    text-align: center;
+    margin-left: -890px;
+}
+.cevapp{
+    position: absolute;
+    left: 120px;
+
+}
+#yildiz{
+    color: red;
+}
+.yorum{
+    position: absolute;
+    left: 120px;
+
+}
+#message{
+    margin-left: 120px;
+    width: 1100px;
+}
+#name{
+    margin-left: 120px;
+
+}
+#isim{
+    width: 320px;
+    margin-left: 120px;
+}
+#maill{
+    position: relative;
+    width: 320px;
+    margin-left: 470px;
+    top: -85px;
+}
+#mail{
+    position: relative;
+    width: 320px;
+    margin-left: 470px;
+    top: -86px;
+}
+#intadres{
+    position: relative;
+    margin-left: 820px;
+    top: -152px;
+
+}
+#siteadres{
+    position: relative;
+    width: 320px;
+    margin-left: 818px;
+    top: -155px;
+}
+#yorumgndr{
+    position: relative;
+    margin-left: 120px;
+    top: -120px;
+}
+#kurumsal{
+    margin-left: -100px;
+}
+#iletsm{
+    margin-left: -90px;
+}

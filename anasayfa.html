@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link href="style.css" type="text/css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+  <title>DüğünEvim</title>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+</head>
+
+<body>
+
+  <nav class="navbar sticky-top  navbar-expand-lg navbar-light bg-light"> <img src="img/logo.jpg" width="290px">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Ara" aria-label="Search" id="ara-btn" name="ara-btn">
+      <button class="btn btn-outline" name="arabtn" id="arabtn" type="submit">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+          viewBox="0 0 16 16">
+          <path
+            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+        </svg></button>
+    </form>
+
+
+    
+
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item1 ">
+          <a class="nav-link" href="#">Düğün Mekanları </a>
+          <ul class="hidden">
+            <li>
+                <a href="">Kır Düğünü Mekanı</a>
+            </li>
+    
+            <li>
+                <a href="">Otelde Düğün</a>
+            </li>
+
+            <li>
+                <a href="">Düğün Salonları</a>
+            </li>
+            <li>
+                <a href="">Teknede Düğün</a>
+            </li>
+    
+            <li>
+                <a href="">Tarihi Düğün Mekanları</a>
+            </li>
+
+            <li>
+                <a href="">Sünnet Düğünü Mekanları</a>
+            </li>
+            <li>
+                <a href="">Havuz Başı Düğün Mekanları</a>
+            </li>
+        </ul>
+          <li></li>
+        </li>
+        <li class="nav-item2 ">
+          <a class="nav-link" href="#">Düğün Firmaları </a>
+          <ul class="hidden">
+            <li>
+                <a href="">Dış Çekim ve Düğün Fotoğrafçısı</a>
+            </li>
+    
+            <li>
+                <a href="">Gelin Saçı ve Makyajı</a>
+            </li>
+
+            <li>
+                <a href="">Gelinlik VE Moda Evleri</a>
+            </li>
+            <li>
+                <a href="">Gelin Arabası</a>
+            </li>
+    
+            <li>
+                <a href="">Nikah Şekeri ve Hediyelik</a>
+            </li>
+
+            <li>
+                <a href="">Gelin Çiçeği</a>
+            </li>
+            <li>
+                <a href="">Damatlık Modelleri</a>
+            </li>
+            
+            <li>
+                <a href="">Düğün Davetiyesi</a>
+            </li>
+            <li>
+                <a href="">Düğün Pastası Firmaları</a>
+            </li>
+        </ul>
+        </li>
+        <li class="nav-item3">
+          <a class="nav-link" href="#">Organizasyon Firmaları</a>
+          <ul class="hidden">
+            <li>
+                <a href="">Kına Organizasyonu Firmaları</a>
+            </li>
+    
+            <li>
+                <a href="">Nişan Organi Firmaları</a>
+            </li>
+
+            <li>
+                <a href="">Düğün Organizasyonu Firmaları</a>
+            </li>
+            <li>
+                <a href="">Doğum Günü Organizasyonu Firmaları</a>
+            </li>
+    
+            <li>
+                <a href="">Mezuniyet ve Balo Firmaları</a>
+            </li>
+
+            <li>
+                <a href="">Sünnet Organizasyonu</a>
+            </li>
+            <li>
+                <a href="">Evlilik Teklifi Organizasyonu Firmaları</a>
+            </li>
+        
+        </ul>
+        </li>
+        <li class="nav-item4">
+          <a class="nav-link" href="ceyiz/ceyiz.html" target="_blank">Çeyiz</a>
+        </li>  
+      </ul>
+    </div>
+    
+
+    <div class=" d-md-flex justify-content-md-end">
+      <button class="btn  me-md-2" id="giris" type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle"
+          viewBox="0 0 16 16">
+          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+          <path fill-rule="evenodd"
+            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+        </svg>
+        Giriş Yap/Üye Ol</button>
+
+    </div>
+  </nav>
+
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/s3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="s1">Hayalinizdeki Düğünü Gerçekleştirin</h5>
+          <p class="s-1">DüğünEvim.Com ile Hayalinizdeki Düğünü Gerçekleştirmek Hiç Bu Kadar Kolay Olmamıştı.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/s1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+  
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/s2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+    
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
+  </div></br></br></br></br>
+
+
+  <h3 id="mekan">Düğün Mekan Kategorileri</h3>
+  <p id="mekan">Hayal ettiğiniz düğüne göre bir mekan kategorisi seçebilirsiniz.</p></br></br>
+  <div class="row row-cols-1 row-cols-md-3 g-1" id="salon" >
+    <div class="col">
+      <div class="card h-100" style="border: none;">
+        <img src="img/kirdgnn.jpg" id="kir" class="card-img-top" alt="...">
+        <div class="card-body" >
+          <h5 class="card-title">KIR DÜĞÜNÜ</h5>
+          <p class="card-text">Kır düğünü mekanları, şehrin gürültüsünden uzak, temiz havasıyla ve doğayla iç içe atmosferiyle hayalinizdeki düğün için size en uygun seçenekleri sunuyor.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100" style="border: none;">
+        <img src="img/ac-kap-davet.jpg" id="acık-kapali" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">AÇIK VE KAPALI DAVET SALONLARI</h5>
+          <p class="card-text">Açık ve kapalı davet alanları, belirlediğiniz konsepte göre düzenlenebilen ve dilediğiniz hizmet türünde size seçenek sunan organizasyon alanlarıdır. </p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100" style="border: none;">
+        <img src="img/dgn-sln.jpg" id="dgnsalon" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">DÜĞÜN SALONLARI</h5>
+          <p class="card-text">Farklı özelliklere sahip yüzlerce düğün salonu ve hayalinizdeki düğün için ihtiyaç duyacağınız her ayrıntı DüğünEvim.com’da!</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100" style="border: none;">
+        <img src="img/tekne.jpg" id="tekne" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">TEKNEDE DÜĞÜN</h5>
+          <p class="card-text">Boğaz'ın eşsiz atmosferini de dahil edebileceğiniz ve dört mevsim değerlendirebileceğiniz muhteşem bir seçenektir. Tekne ve yatların açık ve kapalı alan olmak üzere farklı alternatifler sunmaları, farklı hava koşullarında sorunsuz bir düğün yapmanıza olanak sağlar. </p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100" style="border: none;">
+        <img src="img/tarihi.jpg" id="tarih" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">TARİHİ DÜĞÜN MEKANLARI</h5>
+          <p class="card-text">Tarihi mekanlarda düğün, en özel gününüzü özel bir mekanda geçireceğiniz unutulmaz bir düğün için en iyi seçeneklerden biridir. Farklı özelliklerdeki tarihi düğün mekanları, hayalinizdeki konsept için farklı seçenekler sunabilir.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100" style="border: none;">
+        <img src="img/otel.jpg" id="otel" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">OTEL DÜĞÜN SALONLARI</h5>
+          <p class="card-text">Otel düğün salonu, belirleyeceğiniz konsepte göre otelin birçok özelliğinden ve hizmetinden faydalanabileceğiniz, birçok farklı ihtiyacınıza cevap veren kapsamlı düğün salonlarıdır.</p>
+        </div>
+      </div>
+    </div>
+  </div></br></br></br></br>
+
+  <div class="card mb-3" style="max-width: 1355px; border: none;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="img/gemi.jpg" id="gemi" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h3 class="card-title" id="gemiyazi1">BALAYI GEMİ TURLARI</h3>
+          <p class="card-text" id="gemiyazi">Balayı gemi turları ile rüya gibi bir balayı tatiline hazır mısınız? Tüm cruise ve nehir turlarını sizin için bir araya getirdik. Erken rezervasyonda indirimli 2021 gemi turu fiyatlarını buradan keşfedin.</p>
+            <button class="btn " type="button" id="btn-balayi">Balayı Gemi Turu Fiyatları</button>
+        </div>
+      </div>
+    </div>
+  </div></br></br></br></br>
+
+
+  <div class="card mb-3" style="max-width: 1355px; border: none;">
+    <div class="row g-0">
+        <div class="col-md-6">
+            <img src="img/fotog.jpg" id="foto" alt="...">
+          </div>
+        <div class="col-md-5">
+            <div class="card-body">
+              <h3 class="card-title" id="dgnfoto" >DÜĞÜN FOTOĞRAFÇILARI</h3>
+              <p class="card-text" id="dgnfoto">Düğün fotoğrafçısı, düğün gününüzü tüm ayrıntılarıyla yıllar sonra bile aynı heyecanla hatırlamanızı sağlayan en önemli ayrıntılardan biridir. Düğün fotoğrafları ve düğün videosu için en iyi düğün fotoğrafçılarını listeledik.</p>
+                <button class="btn " type="button" id="dgnfoto1" >Düğün Fotoğrafçılarından Fiyat Alın</button>
+            </div> </div>
+            </div></br></br></br></br></br></br>
+          </div>
+
+
+          <div class="card mb-3" style="max-width: 1355px; border: none;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="img/dgnOrganizasyon.jpg"id="gemi" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h3 class="card-title" id="gemiyazi1">DÜĞÜN ORGANİZASYONU</h3>
+                  <p class="card-text" id="gemiyazi">Düğün organizasyon firmaları ile çalışarak hayalinizdeki düğünü yaşayın. Her detayın en ince ayrıntısına kadar düşünüldüğünden emin olun…
+                    Detaylarda boğulmayın, mutluluğunuza odaklanın!</p>
+                    <button class="btn" type="button" id="btn-balayi">Düğün Organizasyon Firmaları</button>
+                </div> </div>
+                </div></br></br></br></br></br>
+              </div>
+
+
+              <div class="card mb-3" style="max-width: 1355px; border: none;">
+                <div class="row g-0">
+                    <div class="col-md-6">
+                        <img src="img/gelin.jpg" id="foto" alt="...">
+                      </div>
+                    <div class="col-md-5">
+                        <div class="card-body">
+                          <h3 class="card-title" id="dgnfoto" >GELİN SAÇI VE MAKYAJI</h3>
+                          <p class="card-text" id="dgnfoto">Gelin makyajı nasıl olmalı ve nasıl yapılır? En trend gelin makyajı modelleri neler? Kalıcı makyaj ve porselen makyaj fiyatları hakkında tüm bilgilere buradan ulaşabilirsiniz.</p>
+                            <button class="btn " type="button" id="dgnfoto1" >Gelin Saçı ve Makyajı İçin Fiyat Alın</button>
+                        </div> </div> </div>
+                      </div></br></br></br></br></br></br>
+                      
+
+                      <div>
+                        <h2 class="hazirlik1">DÜĞÜN HAZIRLIKLARI REHBERİ</h2>
+                        <p class="hazirlik2">Düğün trendleri,gelinlik modelleri,çeyiz alışverişleri ve fazlası...</p>
+                      </div></br></br>
+                      
+
+                      <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="img/istmekan.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">İstanbul Açık Hava Düğün Mekanları Tavsiyeleri</h5>
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. 
+                                This content is a little bit longer.</p>    <a href="#" class="card-link">Devamını Oku</a>
+              
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="img/izmirmekan.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">İzmir Açık Hava Düğün Mekanları Tavsiyeleri</h5>
+                              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                               <a href="#" class="card-link">Devamını Oku</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="img/ankaramekan.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Ankara Açık Hava Düğün Mekanları Tavsiyeleri</h5>
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                              <a href="#" class="card-link">Devamını Oku</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div></br></br>
+                      <div class="d-grid gap-2 col-3 mx-auto">
+                        <button class="yazilarincele" type="button">Tüm Yazıları İncele</button>
+                        
+                      </div>
+                    </br></br>
+                    </div>
+
+
+                    <footer class="bg-light text-center ">
+  
+                        <div class="container p-4">
+                        
+                          <div class="row">
+                          
+                            <div class="col-lg-6 col-md-12 mb-4 mb-md-0" style="margin-left: -35px;" >
+                              <img src="img/logo.jpg" width="290px" height="50px"></br></br>
+                      
+                              <p class="footeryazi">
+                                Düğün Evim, düğün firmalarını bir araya getirerek fiyat teklifleri almanızı sağlayan bir düğün ve özel etkinlik organizasyon portalıdır.
+                              </p>
+                            </div>
+                          
+                            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                              <h5 class="text-uppercase" style="margin-left: -126px;">DÜĞÜNEVİM.COM</h5>
+                      
+                              <ul class="list-unstyled mb-0">
+                                <li>
+                                  <a href="#!" class="text-darkk">Kullanıcı Sözleşmesi</a>
+                                </li>
+                                <li>
+                                  <a href="#!" class="text-darkk">Düğün Hazırlıkları Rehberi</a>
+                                </li>
+                                <li>
+                                  <a href="#!" class="text-darkk">Bize Ulaşın</a>
+                                </li>
+                               
+                              </ul>
+                            </div>
+                           
+                            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                              <h5 class="text-uppercase mb-0">TAKİPTE KALIN</h5>
+                      
+                              <ul class="list-unstyled">
+                                <li>
+                                  <a href="#!" class="text-dark1">Facebook</a>
+                                </li>
+                                <li>
+                                  <a href="#!" class="text-dark1">İnstagram</a>
+                                </li>
+                                <li>
+                                  <a href="#!" class="text-dark1">Twitter</a>
+                                </li>
+                                <li>
+                                  <a href="#!" class="text-dark1">Pinterest</a>
+                                </li>
+                              </ul>
+                            </div>
+                            
+                          </div>
+                      
+                        </div>
+                      
+                            <footer class="bg-dark text-center text-lg-start">
+                              <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.2);" id="footer">
+                                DüğünEvim.Com© 2020-2021 hakları saklıdır.Düğün, davet ve özel etkinlik web portalı.
+                                <a class="text-dark" href="#"></a>
+                              
+                                <ul class="social" >
+                                  <li  class="sosyal1">
+                                      <button class="btn btn-outline btn-social">
+                                          <i class="fab fa-facebook" id="footer"></i>
+                                          
+                                      </button>
+                                  </li>
+                      
+                                  <li class="sosyal2">
+                                      <button class="btn btn-outline btn-social">
+                                        <i class="fab fa-instagram" id="footer"></i>  
+                                      </button>
+                                  </li>
+                      
+                                  <li class="sosyal3">
+                                      <button class="btn btn-outline btn-social">
+                                          <i class="fab fa-twitter" id="footer"></i>
+                                          
+                                      </button>
+                                  </li>
+                      
+                                  <li class="sosyal4">
+                                      <button class="btn btn-outline btn-social">
+                                        <i class="fab fa-pinterest-square" id="footer"></i>
+                                          
+                                      </button>
+                                  </li>
+                              </ul>
+                            </footer>
+                          
+                        
+                      
+                      
+                      
+                      
+                      
+                        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+                          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+                          crossorigin="anonymous"></script>
+                      
+                        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+                          integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+                          crossorigin="anonymous"></script>
+                        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+                          integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+                          crossorigin="anonymous"></script>
+
+                      
+                      </body>
+                      <script src="ara.js"></script>
+                      </html>
+
+              
+          

@@ -1,0 +1,311 @@
+#arabtn{
+    color: rgba(223, 0, 156, 0.596);
+    background-color: rgb(204, 197, 197);
+}
+#arabtn:hover{
+    background-color:  rgba(209, 35, 180, 0.596);
+    color: rgb(235, 230, 230);
+}
+#ara-btn{
+    margin-left: 20px;
+}
+#giris{
+    background-color: rgb(170, 61, 156);
+    color: white
+}
+#giris:hover{
+    color: rgb(170, 61, 156);
+    background-color: white;
+}
+#navbarNav{
+    margin-left: 38px;
+}
+    .nav-item1:hover{
+    background-color:whitesmoke;
+    }
+    .nav-item2:hover{
+    background-color:whitesmoke;
+    }
+    .nav-item3:hover{
+    background-color:whitesmoke;
+    }
+   
+    .nav-item4:hover{
+    background-color:whitesmoke;
+    }
+    .s1{
+            color: rgb(39, 37, 37);
+        }
+    .s-1{
+            color: rgb(32, 31, 31);
+        }
+        .yardim{
+
+            background-color: rgb(247, 212, 233);
+        }
+        .yardimm{
+            padding-top: 65px;
+            text-align: center;
+            color: rgb(61, 58, 58);
+        }
+        #hr{
+            color: rgb(203, 20, 220);
+            width: 75px;
+            margin-left:650px;
+            height: 2px;
+
+        }
+        
+        .bolgee{
+            padding-top: 33px;
+            text-align: center;
+            padding-bottom: 35px;
+            color: rgb(46, 45, 45);
+        }
+        .gg{
+            background-color: rgb(255, 255, 255);
+        
+      
+       }
+       #mekan{
+           text-align: center;
+      
+           
+       }
+      
+       #mekan2{
+           background-color: rgb(241, 215, 241);
+        
+       }
+       #salon{
+           background-color: rgb(237, 249, 252);
+       }
+       #kir{
+           height: 324px;
+       }
+       #acık-kapali{
+           height: 324px;
+       }
+       #dgnsalon{
+           height: 324px;
+       }
+       #tekne{
+        height: 324px;
+    }
+    #tarih{
+        height: 324px;
+    }
+    #otel{
+        height: 324px;
+    }
+    #gemi{
+        width: 675px;
+        height: 255px;
+    }
+    #gemiyazi1{
+        position: relative;
+        padding:10px;
+        margin-left: 460px;
+    }
+    #gemiyazi{
+        
+        position: relative;
+        padding:10px;
+        margin-left: 460px;
+    }
+    #btn-balayi{
+        margin-left: 466px;
+        background-color: rgb(170, 61, 156);
+        color: white;
+    }
+    #foto{
+        position: absolute;
+        right: -787px;
+         width: 675px;
+         height: 255px;
+        
+    }
+    #dgnfoto{
+        position: relative;
+        left: -625px;
+    }
+    #dgnfoto1{
+        position: relative;
+        left: -625px;
+        background-color: rgb(170, 61, 156);
+        color: white;
+
+    }
+    #gemiyazi2{
+    
+    margin-left: -422px;
+    padding: 10px;
+        
+    }
+    #gemiyazi3{
+    
+        margin-left: 56px;
+            
+        }
+        #gelin1{
+            margin-left: 1px;
+        }
+        #gelin2{
+            margin-left: 8px;
+        }
+        .hazirlik1{
+
+            text-align: center;
+            color: rgb(65, 63, 63);
+        }
+        .hazirlik2{
+
+            text-align: center;
+            color: rgb(80, 77, 77);
+
+        }
+      .yazilarincele{
+          color: whitesmoke;
+          background-color:  rgb(187, 59, 170);
+          height: 50px;
+          font-size: 20px;
+          border: none;
+      }
+      .yazilarincele:hover{
+        color: whitesmoke;
+        background-color: rgb(206, 30, 212);
+        height: 50px;
+        border: none;
+    }
+    .social{
+        list-style: none;
+        position: absolute;
+        display: inline-block;
+        margin-right: 2px;
+        
+
+    }
+    .sosyal1{
+        position: relative;
+        display: inline-block;  
+        top: -5px; 
+    
+    }
+    .sosyal1:hover{
+        background-color: rgb(170, 166, 161);
+    }
+    .sosyal2{
+        position: relative;
+        display: inline-block;
+        top: -5px; 
+  
+    }
+    .sosyal2:hover{
+        background-color: rgb(170, 166, 161);
+
+    }
+    .sosyal3{
+        position: relative;
+        display: inline-block;
+        top: -5px; 
+
+    }
+    .sosyal3:hover{
+     background-color: rgb(170, 166, 161);
+
+    }
+    .sosyal4{
+        position: relative;
+        display: inline-block;
+        top: -5px;
+       
+    }
+    .sosyal4:hover{
+     background-color: rgb(170, 166, 161);
+
+    }
+    .text-darkk{
+        text-decoration: none;
+        color: rgb(27, 26, 26);
+        
+    }
+    .text-darkk:hover{
+        text-decoration: none;
+        color: rgb(27, 26, 26);
+
+    }
+    .text-dark1{
+        text-decoration: none;
+        color: rgb(27, 26, 26);
+
+    }
+    .text-dark1:hover{
+        text-decoration: none;
+        color: rgb(27, 26, 26);
+
+    }
+    #footer{
+        color: white;
+    }
+    .footeryazi{
+        padding-bottom: 58px;
+    }
+   
+
+            ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+        }
+        li{
+            display: inline-block;
+            float: left;
+            margin-right: 1px;
+
+        }
+        li a{
+            display: block;
+            min-width: 140px;
+            text-decoration: none;/*altındaki çizgiler gider*/
+            color: papayawhip;
+            height: 50px;
+            line-height: 50px;/*satır yüksekliği*/
+            text-align: center;
+
+        }
+        li a:hover{
+            text-decoration: none;
+            color: lightgoldenrodyellow;
+
+        }
+        li:hover ul a{
+            background: rgb(236, 236, 236);
+            color: black;
+            height: 40px;
+            line-height: 40px;
+        }
+        li ul li{
+            display: block;
+            float: none;/* KURSLAR bölümündeki satırın kaplaması için*/
+            text-align: left;
+        }
+        li ul li a{
+            text-align: left;
+            min-width: 100px;
+            padding: 0 20px;
+
+        }
+        li ul{
+            display: none;/*KURSLAR bölümündeki içeriğin kapanması için*/
+        }
+        ul li a:hover + .hidden,.hidden:hover{
+            display: block;/*üzerine tıklandığında içeriklerin gelmesi için*/
+
+        }
+        .hidden li a:hover{
+            background-color: rgb(235, 228, 217);
+        }
+     
+
+    
